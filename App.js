@@ -20,7 +20,7 @@ const api_key = "13832345b924b204e79d85b719bc624f";
 
 export class HomeScreen extends Component {
   static navigationOptions = {
-      headerTitle : <Image style={{flex: 1, height: 50, backgroundColor: '#696969'}} source={require("./src/components/Flixie_logo-01.png")} /> 
+      headerTitle : <View style={{flex: 1, height: 0, padding: 22}} > <Image style={{ alignSelf: 'center', marginTop: -25}} source={require("./src/components/Flixie_logo-01.png")} /> </View>
       }
   constructor(props) {
     super(props);
